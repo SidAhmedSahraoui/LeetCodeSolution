@@ -1,0 +1,27 @@
+{
+  "name": "js-practice",
+  "version": "1.0.0",
+  "description": "Practice JavaScript",
+  "main": "code.js",
+  "scripts": {
+    "start": "nodemon code.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SidAhmedSahraoui/JS-Plain-Codes.git"
+  },
+  "keywords": [
+    "JS",
+    "Node"
+  ],
+  "author": "Sid Ahmed Sahraoui",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SidAhmedSahraoui/JS-Plain-Codes/issues"
+  },
+  "homepage": "https://github.com/SidAhmedSahraoui/JS-Plain-Codes#readme",
+  "dependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
