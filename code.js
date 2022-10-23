@@ -1,4 +1,5 @@
-/*const s = "123456";
+/*
+const s = "123456";
 function despite(str) {
   const arr = [];
   let s = "";
@@ -13,8 +14,11 @@ function despite(str) {
   }
   console.log(arr);
 }
-despite(s);*/
-/*const s = 1000
+despite(s);
+
+// 
+
+const r = 1000
 function devop(str) {
   let arr = []
   const all = []
@@ -32,7 +36,10 @@ function devop(str) {
   console.log(all);
   console.log(all.length);
 }
-devop(s)*/
+devop(r)
+
+//
+
 const ex = 5000
 function dev(arg) {
   for(let i=0 ; i<arg ; i++){
@@ -41,3 +48,19 @@ function dev(arg) {
   console.log("ee"); 
 }
 dev()
+*/
+
+const seconds = new Date().getTime() / 1000;
+
+
+setTimeout(() => {
+  // prints out "2", meaning that the callback is not called immediately after 500 milliseconds.
+  console.log(`Ran after ${new Date().getTime() / 1000 - seconds} seconds`);
+}, 500)
+
+while (true) {
+  if (new Date().getTime() / 1000 - seconds >= 2) {
+    console.log("Good, looped for 2 seconds");
+    break;
+  }
+} 
