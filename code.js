@@ -49,7 +49,7 @@ function dev(arg) {
 }
 dev()
 */
-
+/*
 const seconds = new Date().getTime() / 1000;
 
 
@@ -64,3 +64,4 @@ while (true) {
     break;
   }
 } 
+*/
